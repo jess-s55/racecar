@@ -32,6 +32,12 @@ public class RaceCar {
     public String getColor() {
         return color;
     }
+    public int getCarNumber() {
+        return carNumber;
+    }
+    public boolean getTurbo() {
+        return turbo;
+    }
 }
 
 

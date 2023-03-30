@@ -7,9 +7,7 @@ public class Main {
     public static void main(String[] args) {
         Menu menu = new Menu(new Scanner(new InputStreamReader(System.in, StandardCharsets.UTF_8)), new RaceCar());
 
-        //RaceCar raceCar1 = new RaceCar();
         menu.greet();
-
 
     }
 }
